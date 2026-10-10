@@ -1,0 +1,11 @@
+# Local / secret / dev files — must NEVER be committed to the public repo
+_mcp_probe.py
+_mcp_probe_*.py
+_probe_out.txt
+_verify_*.md
+_live_log.txt
+mcp_raw_nutrition.txt
+.env
+*.local.json
+mcp-config.local.json
+# WorkBuddy local MCP config with real token lives at ~/.workbuddy/mcp.json (not here)
